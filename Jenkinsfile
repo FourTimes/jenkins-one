@@ -1,7 +1,7 @@
 pipeline {
   agent any
   parameters {
-    string(name: 'STATEMENT', defaultValue: 'hello', description: 'What should I say?')
+    string(name: 'STATEMENT', description: 'What should I say?')
   }
   stages {
     stage('jobone') {
